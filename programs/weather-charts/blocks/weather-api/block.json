@@ -1,0 +1,23 @@
+{
+  "source": "code.js",
+  "inputs": [
+    {
+      "id": "cityName",
+      "type": "text"
+    },
+    {
+      "id": "countryName",
+      "type": "text"
+    },
+    {
+      "id": "openWeatherMapAPIKey",
+      "type": "text"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "data",
+      "description": "Weather data"
+    }
+  ]
+}

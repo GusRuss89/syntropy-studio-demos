@@ -1,0 +1,57 @@
+{
+  "_from": "histogram-renderer",
+  "_id": "histogram-renderer@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0e5LOyzojGVnyCNZpmEtwdmr0QlAyVw0C2qTUHL3ZPwUIoT3sZt66r9OmfQAeXJRMU04GsihUh7voNKwMDyCig==",
+  "_location": "/histogram-renderer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "histogram-renderer",
+    "name": "histogram-renderer",
+    "escapedName": "histogram-renderer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/histogram-renderer/-/histogram-renderer-1.0.0.tgz",
+  "_shasum": "86fad26dea33d05cca33f192a0b73ef9a8b8bdef",
+  "_spec": "histogram-renderer",
+  "_where": "/Applications/MAMP/htdocs/syntropy-studio",
+  "author": {
+    "name": "Angus Russell"
+  },
+  "bugs": {
+    "url": "https://github.com/syntropy-studio-blocks/histogram-renderer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chart.js": "^2.8.0"
+  },
+  "deprecated": false,
+  "description": "Renders a histogram from an array of numbers",
+  "homepage": "https://github.com/syntropy-studio-blocks/histogram-renderer#readme",
+  "keywords": [
+    "syntropy-studio-block",
+    "histogram",
+    "renderer",
+    "distribution",
+    "chart"
+  ],
+  "license": "MIT",
+  "main": "code.js",
+  "name": "histogram-renderer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syntropy-studio-blocks/histogram-renderer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

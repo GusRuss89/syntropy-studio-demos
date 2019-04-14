@@ -1,0 +1,39 @@
+{
+  "blockInstances": [
+    {
+      "id": "random-x"
+    },
+    {
+      "id": "random-y"
+    },
+    {
+      "id": "space",
+      "inputValues": {
+        "randomX": {
+          "value": {
+            "blockId": "random-x",
+            "key": "random"
+          }
+        },
+        "randomY": {
+          "value": {
+            "blockId": "random-y",
+            "key": "random"
+          }
+        },
+        "iterationsPerStar": {
+          "value": "0"
+        },
+        "speed": {
+          "value": "0.36"
+        },
+        "fadeInSpeed": {
+          "value": "0.14"
+        },
+        "newStarColor": {
+          "value": "#474d19"
+        }
+      }
+    }
+  ]
+}

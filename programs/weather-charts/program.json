@@ -1,0 +1,124 @@
+{
+  "blockInstances": [
+    {
+      "id": "weather-api",
+      "inputValues": {
+        "cityName": {
+          "value": "Brisbane"
+        },
+        "countryName": {
+          "value": "au"
+        },
+        "openWeatherMapAPIKey": {
+          "value": "ecaa958894a4c11aa6ce63b0635f9da6"
+        }
+      }
+    },
+    {
+      "id": "weather-data-filter",
+      "inputValues": {
+        "weatherData": {
+          "value": {
+            "key": "data",
+            "blockId": "weather-api"
+          }
+        }
+      }
+    },
+    {
+      "id": "promise-awaiter",
+      "inputValues": {
+        "readyPromise": {
+          "value": {
+            "key": "readyPromise",
+            "blockId": "weather-data-filter"
+          }
+        }
+      }
+    },
+    {
+      "id": "temp-chart",
+      "disabled": false,
+      "inputValues": {
+        "xData": {
+          "value": {
+            "key": "timestamps",
+            "blockId": "weather-data-filter"
+          }
+        },
+        "yData": {
+          "value": {
+            "key": "temps",
+            "blockId": "weather-data-filter"
+          }
+        },
+        "xLabel": {
+          "value": "Time"
+        },
+        "yLabel": {
+          "value": "Temperature"
+        },
+        "readyPromise": {
+          "value": {
+            "key": "readyPromise",
+            "blockId": "weather-data-filter"
+          }
+        }
+      }
+    },
+    {
+      "id": "humidity-chart",
+      "inputValues": {
+        "xData": {
+          "value": {
+            "key": "timestamps",
+            "blockId": "weather-data-filter"
+          }
+        },
+        "yData": {
+          "value": {
+            "key": "humids",
+            "blockId": "weather-data-filter"
+          }
+        },
+        "xLabel": {
+          "value": "Time"
+        },
+        "yLabel": {
+          "value": "Humidity"
+        },
+        "readyPromise": {
+          "value": {
+            "key": "readyPromise",
+            "blockId": "weather-data-filter"
+          }
+        }
+      }
+    },
+    {
+      "id": "temp-histogram",
+      "inputValues": {
+        "inputData": {
+          "value": {
+            "key": "temps",
+            "blockId": "weather-data-filter"
+          }
+        },
+        "numBuckets": {
+          "value": 12
+        }
+      }
+    },
+    {
+      "id": "logger",
+      "inputValues": {
+        "weatherData": {
+          "value": {
+            "key": "data",
+            "blockId": "weather-api"
+          }
+        }
+      }
+    }
+  ]
+}

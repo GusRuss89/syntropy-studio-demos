@@ -1,0 +1,14 @@
+{
+  "name": "new-syntropy-studio-workspace",
+  "keywords": [
+    "syntropy-studio-workspace"
+  ],
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "histogram-renderer": "^1.0.0",
+    "line-chart-renderer": "^1.0.0",
+    "random-on-iteration": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_from": "line-chart-renderer",
+  "_id": "line-chart-renderer@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-sixjsjS7fhrHiySETbpReEXF424l3S4J9h9TSrY5xkDafyuakQqBBg8/hPPpLcpEz+ehjU9Cj+tXXfL8WhwOpQ==",
+  "_location": "/line-chart-renderer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "line-chart-renderer",
+    "name": "line-chart-renderer",
+    "escapedName": "line-chart-renderer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/line-chart-renderer/-/line-chart-renderer-1.0.0.tgz",
+  "_shasum": "d48bd55de87f442a65c602fcf5eb112e115ea517",
+  "_spec": "line-chart-renderer",
+  "_where": "/Applications/MAMP/htdocs/syntropy-studio",
+  "author": {
+    "name": "Angus Russell"
+  },
+  "bugs": {
+    "url": "https://github.com/syntropy-studio-blocks/line-chart/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chart.js": "^2.8.0"
+  },
+  "deprecated": false,
+  "description": "Renders a line chart based on two arrays of numbers (x and y axes)",
+  "homepage": "https://github.com/syntropy-studio-blocks/line-chart#readme",
+  "keywords": [
+    "syntropy-studio-block",
+    "renderer",
+    "line",
+    "chart",
+    "graph"
+  ],
+  "license": "MIT",
+  "main": "code.js",
+  "name": "line-chart-renderer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syntropy-studio-blocks/line-chart.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

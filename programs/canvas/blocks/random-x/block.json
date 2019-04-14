@@ -1,0 +1,27 @@
+{
+  "source": "code.js",
+  "inputs": [
+    {
+      "id": "seed",
+      "type": "text"
+    },
+    {
+      "id": "min",
+      "type": "number"
+    },
+    {
+      "id": "max",
+      "type": "number"
+    },
+    {
+      "id": "iterations",
+      "type": "number"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "random",
+      "description": "A random number between your min and max values, which default to 0 and 1."
+    }
+  ]
+}

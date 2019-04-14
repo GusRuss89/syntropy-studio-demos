@@ -1,0 +1,22 @@
+{
+  "source": "code.js",
+  "inputs": [
+    {
+      "id": "btnText",
+      "type": "text"
+    },
+    {
+      "id": "color",
+      "type": "text"
+    },
+    {
+      "id": "variant",
+      "type": "text"
+    },
+    {
+      "id": "size",
+      "type": "text"
+    }
+  ],
+  "outputs": []
+}

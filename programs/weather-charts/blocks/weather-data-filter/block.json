@@ -1,0 +1,27 @@
+{
+  "source": "code.js",
+  "inputs": [
+    {
+      "id": "weatherData",
+      "type": "link"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "timestamps",
+      "description": "Array of labels for each data point"
+    },
+    {
+      "id": "temps",
+      "description": "Array of temps"
+    },
+    {
+      "id": "humids",
+      "description": "Array of humidity measurements"
+    },
+    {
+      "id": "readyPromise",
+      "description": "Promise that resolves when data is filtered"
+    }
+  ]
+}

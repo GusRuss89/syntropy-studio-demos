@@ -1,0 +1,56 @@
+{
+  "_from": "random-on-iteration",
+  "_id": "random-on-iteration@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-8OV64axFRpHr7NzA30Dj05JhDqkI1tUjpFsNo6V4NMfad/SQB9nqk0QfOxz9yJn6Yp1lg/fAK8WuM5w1HDC2RA==",
+  "_location": "/random-on-iteration",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "random-on-iteration",
+    "name": "random-on-iteration",
+    "escapedName": "random-on-iteration",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/random-on-iteration/-/random-on-iteration-1.0.0.tgz",
+  "_shasum": "14e6e4a8d3c153eed2d2fda4264deaf66367a718",
+  "_spec": "random-on-iteration",
+  "_where": "/Applications/MAMP/htdocs/syntropy-studio",
+  "author": {
+    "name": "Angus Russell"
+  },
+  "bugs": {
+    "url": "https://github.com/syntropy-studio-blocks/random-on-iteration/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "seedrandom": "^3.0.1"
+  },
+  "deprecated": false,
+  "description": "On every iteration, generates a random number, optionally seeded, between min and max",
+  "homepage": "https://github.com/syntropy-studio-blocks/random-on-iteration#readme",
+  "keywords": [
+    "syntropy-studio-block",
+    "input",
+    "random",
+    "seeded"
+  ],
+  "license": "MIT",
+  "main": "code.js",
+  "name": "random-on-iteration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syntropy-studio-blocks/random-on-iteration.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

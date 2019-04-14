@@ -1,0 +1,21 @@
+{
+  "blockInstances": [
+    {
+      "id": "material-button",
+      "inputValues": {
+        "btnText": {
+          "value": "Click Me"
+        },
+        "color": {
+          "value": "primary"
+        },
+        "variant": {
+          "value": "outlined"
+        },
+        "size": {
+          "value": "medium"
+        }
+      }
+    }
+  ]
+}
