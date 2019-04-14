@@ -10,7 +10,7 @@
           "value": "primary"
         },
         "variant": {
-          "value": "outlined"
+          "value": "contained"
         },
         "size": {
           "value": "medium"

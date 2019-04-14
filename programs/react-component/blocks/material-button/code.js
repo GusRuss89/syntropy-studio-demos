@@ -13,9 +13,8 @@ import Button from '@material-ui/core/Button'
 export const run = ({ state, element, events, iteration }) => {
   const reactRoot = document.createElement('div')
   element.appendChild(reactRoot)
-  //ReactDOM.unmountComponentAtNode(element)
   ReactDOM.render(
-    <div style={{display: 'flex', justifyContent: 'space-between', padding: 10}}>
+    <div style={{padding: 10}}>
       <Button
         variant={state.variant}
         color={state.color}
