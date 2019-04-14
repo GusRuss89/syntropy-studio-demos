@@ -28,6 +28,9 @@ Code blocks have a tiny API made up of two functions: `run` and `update`. `run` 
 
 You can disable blocks, or "de-throttle" them (by default they will run at up to 60fps) by hovering over them in the program panel and selecting the appropriate icon.
 
+### Adding blocks
+You can add a new block to your program by right-clicking on the program in the "Programs" panel and selecting "Add new block".
+
 ### Running a program
 First, select the program you wish to run from the "Programs" panel in the sidebar. Then the "Program" panel will show buttons to play, pause, step (advance by one iteration), and reset.
 
