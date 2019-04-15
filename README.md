@@ -32,13 +32,13 @@ Code blocks have a tiny API made up of two functions: `run` and `update`. `run` 
 You can disable blocks, or "de-throttle" them (by default they will run at up to 60fps) by hovering over them in the program panel and selecting the appropriate icon.
 
 ### Adding blocks
-You can add a new block to your program by right-clicking on the program in the "Programs" panel and selecting "Add new block".
+You can add a new block to your program by right-clicking on the program in the "Programs" panel and selecting "Add new block". See also: [Using blocks from the web](#using-blocks-from-the-web).
 
 ### Running a program
 First, select the program you wish to run from the "Programs" panel in the sidebar. Then the "Program" panel will show buttons to play, pause, step (advance by one iteration), and reset.
 
 ### State
-Both `run` and `update` have access to a shared `state` variable that is internal to the block. You can make pieces of your blocks `state` accessible to other blocks in your program by creating an "Output Member". Likewise, your block can use the output members of the other blocks in your program by creating an "Input Member" of type `link` and linking to the other block's output.
+Both `run` and `update` have access to a shared `state` variable that is internal to the block. You can make pieces of your block's `state` accessible to other blocks in your program by creating an "Output Member". Likewise, your block can use the output of the other blocks in your program by creating an "Input Member" of type `link` and linking to the other block's output.
 
 Thus, a block takes inputs, performs operations, and returns outputs that can be used by other blocks.
 
@@ -54,7 +54,7 @@ to
 Then create an input member called `speed` of type `slider` and drag it back and forth to quickly experiment with different speed values.
 
 ### Rendering
-Both `run` and `update` also have access to `element`, which is a `HTMLDivElement` in the output panel that is reserved for your block's output. You can append things to `element` using regular JavaScript. Things you append in `run` will be cleared before the next `run` (i.e. when you change some code, or an input member that is linked to the `run` function). `update` will not clear anything, so it's a good place to do things like update a canvas, a counter, etc.
+Both `run` and `update` also have access to `element`, which is a `HTMLDivElement` in the output panel that is reserved for your block's output. You can append HTML to `element` using regular JavaScript. Elements you append in `run` will be cleared before the next `run` (i.e. when you change some code, or an input member that is linked to the `run` function). `update` will not clear anything, so it's a good place to do things like update a canvas, a counter, etc.
 
 ### Asynchronous Code
 If your `run` function returns a promise, subsequent blocks will wait for that promise to resolve before running themselves. The simplest way to do asynchronous work is by making your function `async` and using `await`. E.g.
