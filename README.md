@@ -11,6 +11,9 @@ This is a Syntropy Studio workspace that contains a small collection of demo pro
 1. Click "Open Workspace"
 
 ## What is Syntropy Studio
+
+> Note: Syntropy Studio is in an early stage of development. There will be bugs, and obvious missing features. Please feel free to ask any questions and give us lots of feedback on [Gitter](https://gitter.im/syntropy-studio/chat).
+
 Syntropy Studio is a platform for developing small JavaScript programs quickly and easily. It has the following features:
 - Zero boilerplate and automatic code transpilation (use the latest JavaScript features out-of-the-box)
 - Simple rendering within the same window (your program's output is right next to your code)
