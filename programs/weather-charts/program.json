@@ -26,17 +26,6 @@
       }
     },
     {
-      "id": "promise-awaiter",
-      "inputValues": {
-        "readyPromise": {
-          "value": {
-            "key": "readyPromise",
-            "blockId": "weather-data-filter"
-          }
-        }
-      }
-    },
-    {
       "id": "temp-chart",
       "disabled": false,
       "inputValues": {
@@ -106,17 +95,6 @@
         },
         "numBuckets": {
           "value": 12
-        }
-      }
-    },
-    {
-      "id": "logger",
-      "inputValues": {
-        "weatherData": {
-          "value": {
-            "key": "data",
-            "blockId": "weather-api"
-          }
         }
       }
     }
